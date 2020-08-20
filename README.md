@@ -190,7 +190,69 @@ exemple : effet "lightbox", pour manipuler une image en js.
 
 46) on peut chronométrer la vitesse d'exécution d'une fonction JS grâce à la méthode getTime() de l'objet Date. 
 
-47) : Déboguage de code JS : 
+47) : Déboguage de code JS : l'inspecteur web, les devs tools des naviguateurs, console.log, créer une maquette, 
+
+48) visite guidé de l'inspecteur ( pour firefox : tinyurl/y8gozw7m ) ( pour chrome : tinyurl/y7gmun3q). 
+
+49) point d'arrêt sert à passer en revue l'état de nos variables et les différentes opérations sy appliquant. 
+
+50) JS class et object : Face à un projet ambitieux, le code JS a plutot bien intérêt à être STRUCTURE. On peut reproduire le principe des classes en leur associuants des propriétés et des méthodes pour avoir un code réutilisable et moins répétitif. 
+
+51) JS est un language de progrmation orienté PROTOTYPE, cela veut dire qu'on instancie pas des classes mais directement des objets définis sous forme de prototypes => WTF ?!
+
+52) service de Sand boxing comme JsFiddle pour tester la création de classes. 
+
+53) mieux comprendre la POO : tinyurl/y7vm3r23
+
+54) création de fonctions personalisés : tinyurl/mfe8tpl
+
+55) un constructeur sert a définir les différentes propriétés d'un objet. 
+
+56) article pour créer des méthodes VRAIMENT original : tinyurl/y73mxwdz
+
+57) un méthode statique sert à associer à uune classe' une méthode générale ne dépendant pas de ses différentes instances, la statique a généralement un role utilitaire au seins de la classE. Cette méthode servira par exemple a formater une valeur ou procédera à un calcul régulièrement effectué. 
+
+58) Jquerry : apparu en 2006 c'est une bibliothèque javascript. Cette bibli est remplie de méthodes éléments et proproétés. Cette bib modernise le traitement du language JS. On gagne un temps précieux grâce à l'emploi de méthodes simples.  
+
+59) Les sélecteur Jquerry permettent de pointer en une ligne vers tous les éléments d'un choix déterminé, c'est ce qui fait la puissance de la bibliothéque en quelques sortes. 
+
+60) Jquerry permet de dynamiser en qq lignes de code un site web grâce aux effets d'apparition. 
+
+61) Méthodes et propriétés de Jquery listés à l'onglet API documentation de jquery.com 
+
+62) Jquerry UI est une bibliothéque JS spécialisée dans les éléments d'interface. 
+
+63) En combinant Jquerry et le CSS on peut faire des "choses spectaculaires" comme par exemple capturer les sections d'une greande image afin de les isoler. 
+
+64) prepend ajoute un élément AVANT le sélecteur concerné. 
+
+65) pour gérer l'ensemble des animations de Jquerry, il faut appeler la méthode animate ( propriété, durée, transition, fonction ). 
+
+66) on peut créer son propre thème JqueryUI avec Theme Roller. 
+
+67) la méthode tab (à créer rapidement un système de navigation par ongletS. C'est utilisé notamment dans Joomla et Wordpress. 
+
+68) il existe full méthodes prêtes à l'emploi pour réaliser de superbes effet en quelques lignes de code, il suffit de visiter l'adresse suivante : http://api.jquery.com.category/effects 
+
+69) Méthodes et objets NOUVEAU dans HTML 5 et dans "manipulating the DOM" : HISTORY est une API permettant de stocker temporairement des données pour autoriser les retours en arrière. SELECTEURS queryselector et queryselectorAll. TIMERS pour la gestion du temps et des délais avec setInterval et clearInterval. CONTENT EDITABLE : Tiny MCE. WEBSTORAGE : solution de stockage dans la mémoire du naviguateur pour conserver jusqu'à 10 mo de données. 
+
+70) pour dessiner en JS, on utilise l'API "canvas". 
+
+71) on peut apprendre a gérer les transferts de fichier et déployer des systèmes ergonomiques en checkant les propriétés des méthodes de l'API FILE. 
+
+72) API media element pour lire directement du contenu audio et vidéo dans le naviguateur. 
+
+73) Autres méthodes et nouveaux objets en HTML 5 : GEOLOCALISATION, WEK WORKERS: puisque js ne peut pas exécuter des opérations en paralèle ( language mono tâche), lAPI WEB WORKER est la pour palier à ce problème. OFFLINE WEB APPLICATION : API pour garder en mémoire des données pour exécuter une app web même SANS CONNEXION internet. DRAGNDROP. Par exemple en combinant API FILE et DRAGNDROP, on peut créer des interfaces plus riches et plus intuitives. 
+
+74) Canvas peut permettre d'afficher du texte et alors ltuilisateur pourra par exemple librement déplacer son text sur une image
+
+75) GEOLOCALISATION : grâce à getCurrentPosition() on récupérer ponctuellement la position de l'utilisateur et avec watchPosition() permet le suivi du déplacement de l'utilisateur. 
+
+76) L'API FILE READER propose plusieurs méthodes pour lire des fichiers de manières asynchrone. Grâce à cette API, on peut aussi afficher une barre de progression au cours de l'envoi, c'est à dire montrer à l'utilisateur où en est un téléchargement par exemple. 
+
+77) 
+
+
 
 
 
