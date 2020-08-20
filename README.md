@@ -2,7 +2,7 @@
 short word document recapitulating whats been worked and learned on a typical 9 to 5 be code day. 
 
 
-BeCode présentiel du 19 aout 2020
+## BeCode présentiel du 19 aout 2020
 
 1)Premièrement, nous avons abordé l’élément Canvas qui permet d’introduire du dessin 2D et 3D en HTML/CSS/JS/mysql. Ensuite, on a vu un peu de WEB GL qui est surtout utilisé pour la 3D. 
 
@@ -68,4 +68,66 @@ BeCode présentiel du 19 aout 2020
 31) learn what a minimum viable product is
 
 32) talk to as much people as you can, you can ALWAYS learn something from someone.
+
+
+## BeCode distanciel du 20 aout 2020
+
+1) l'ordre pour effectuer des opérations de calcul en javascript est PEMDAS : parenthèse, exposant, multiplication addition et puis soustraction. 
+
+2) les boucles conditionelles : il y a différent chemionement en fonction de certaines valeures. Si la valeure est inférieur ou supérieur à un certain seuil , le traitement sera différent, il est possible d'y rajouter un bouléen comme troisième paramètres. 
+
+3) qu'est ce qu'un label D'instruction ? il s'agit de break and continue 
+
+4) Les opérateurs ternaires : c'est plus compliqué à déboguer mais ça permet de racourcir la syntaxe du code. In a nutshell : "?" instead of plenty of else if 
+
+5) Les boucles for/in traite toutes les propriétés d'un objet
+
+6) une boucle s'exécute en fonction du nombre d'éléments dans le tableau 
+
+7) " /n" means retour à la ligne 
+
+8) Exemple d'un array a plusieurs dimensions : Un petit jeu de Sudoku. Enormément de moyens de manipuler les datas d'un array avec push, pop, shift, split, join , ... 
+
+9) En javascript, les objets ne SONT PAS des instances de classe. 
+
+10) Pour ne pas faire de DRY ( do not repeat yourself)  , il est recommendé de rédiger des fonctions spécifiques. 
+
+11) ParseInt renvoit un entier. 
+
+12) Pour sortir plusieurs résultats d'une fonction, il faut un objet. 
+
+13) Une variable LOCALE s'utilise avec une fonction SPECIFIQUE sinon le code devient lourd. 
+
+14) Bibliothèque d'évents listener :www.tinyurl/kob8ugz et n5zjs4u
+
+15) What is glitch ? 
+
+16) Ajax interroge un script PHP pour chercher la validité d'un input html par rapport à la base de donnée. On peut aussi utiliser du REgex pour ça. 
+
+17) Bibliothèque pour fonction de formulaire : tinyurl/maese4s or parsleys.org 
+
+18) fonction "blurr" pour quiter un champs de formulaire spécifique. 
+
+19) Regex sert a définir un motif et à le chercher dans une chaine de caractère : ex : tinyurl/zrsdr4q
+
+20) Pour uniformiser les réponses à un formulaire, utilisez le snippet suivant : alerte (chaine.CharAtco).toUpperCase() + chaine.slice(1).toLowerCase() ); 
+checker aussi : bibliothèque VOCA pour les chaines de caracètres et stringjs.com
+
+21) Comment récupérer un paramètre et le renvoyer mis en forme dans une chaine de charactères ? utilisez le snippet suivant : 
+
+<? php if ( isset ($_Post['id] && ( $_Post['id]!=" )))
+{echo "bonjour".$_POST["id"];
+else{echo "nom"] ?>
+
+22) watch about DEVOPS : 
+
+concept du "mur de l'incompréhension", il y a un manque de deploiement car peur de release du code non parfait. De plus, il y a un gros manque de communication entres les équipes opérationelles et les équipes de développement. La méthodo DEVOPS est la pour pallier à ce problème, tout en augmentant la productivité de l'entreprise. 
+
+PAr exemple, sur la plateforme ETSI, il y a dix déploiements par jours, ce qui est plutôt une bonne moyenne ( après, les monstres comme Google déploit 100 fois par jours  .... ) 
+
+Après, le personnel devops c'est un peu comme du personnel de consultance en sécurité, qui est quelque chose de nécessaire mais non obligatoire. En général, la plupart des sociétés engage des "formateurs DEVOPS". 
+
+
+
+
 
