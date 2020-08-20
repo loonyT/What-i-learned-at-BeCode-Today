@@ -176,7 +176,21 @@ exemple : effet "lightbox", pour manipuler une image en js.
 
 39) méthodes liées à l'objet  String et utilisés pour les regex : match, search, split, replacE. 
 
-40) Gérer les dates et le temps en JS : 
+40) Gérer les dates et le temps en JS : Il faut savoir que la notion de temps intervient de deux manière en javascript : on utilise d'abord l'objet Date pour afficher, calculer ou manipuler tout type de dates, que ça soit des années, des jours, des mois ou même des millisecondes. Il y a même des fonction visant à décaler ou au contraire à répéter à intervalles réguliers vos traitements. 
+
+41) méthodes et propriétés de l'objet DATE : MDN at this adress : tinyurl/yaj4lxsd. 
+
+42) pour localiser les dates : méthode toLocaleDateString() et ses divers propriétés. 
+
+43) le calcul du temps et des dates s'effectue par rapport à "lunix epoch"
+
+44) grâce aux méthodes setInterval() et setTimeout(), vous retardez ou vous répétez vos traitements afgin d'aboutir aux effets les plus divers. 
+
+45) setTimeout() permet par exemple d'automatiser le chargement d'une succession d'images pour réaliser des diaporamas. 
+
+46) on peut chronométrer la vitesse d'exécution d'une fonction JS grâce à la méthode getTime() de l'objet Date. 
+
+47) : Déboguage de code JS : 
 
 
 
