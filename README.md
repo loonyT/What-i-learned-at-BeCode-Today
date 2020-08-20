@@ -276,7 +276,33 @@ exemple : effet "lightbox", pour manipuler une image en js.
 
 89) série d'exemple de gestion d'animation, avec des effets avancés comme par exemple la gestion de la physique : http://tinyurl.com/y823etsb
 
+90) explications claires sur la fonction drawImage() : tinyurl/y7rz7a4am
 
+91) il existe des bibliothèques prêtes à l'emploi pour gérer un lecteur vidéo HTML5 comme par exemple VideoJS.Com 
+
+92) Manipuler des flux rss : le flux rss en fait c'est un format XML qui obéit à une nomenclature spécifique et qui regroupe dynamiquement la liste des derniers articles publiés, il est possible de parcourir de tels formats grâce à des lecteur codé en javascript et intégrés aux pages concernées. 
+
+93) En combinant Jquery avec FeedEk, on peut déploez un système très souple et simple d'emploi puisqu'il suffit d'indiquer l'url du flux RSS ainsi qu'une série d'options claires. 
+
+94) l'objet DOMParser sert à parcourir un fichier XML et il a aussi une méthode très importante : parseFromString() qui va encapsuler toutes les balises de l'arborescence dans une simple variable. 
+
+95) 15 solutions Jquery pour afficher originalement du flux RSS ( comme par ex les bandeaux dans les chaines d'info en continu ) : tinyurl/hfazw4n
+
+96) ALMOST DONE MOTHERFUCKA 
+
+97) MooTools est le frère jumeau de jQuery, très facile à intégrer grâce à la ligne : <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.6.0/mootools.min.js"> </script> 
+
+98) liste of JS framework : jQuery, MooTools, AngularJS, Vue.js, Three.js, Dojo, React, Ember, RxJS, Redux, Meteor.js, Node.js 
+
+99) Le framework Three.js permet de composer des scènes 3D en javascript avec WebGL. 
+
+100) Ember.js est utilisé par linkedin, apple et netflix. Ember introduit le principe de l'architecture Modèle-route-composant et ressemble assez bien à React en fait. 
+
+101) Dojo et un système de widgets et de gestion d'évènements très pointu. C'est un framework très polyvalent. 
+
+102) Redux se combine à React pour la gestion des différents états d'une application. 
+
+103) YIGUGUYAZ%4RzeoirhsfjzoejthfraozlKETHJEIZRHIAUZETHIPEUAOZA5IRU°238423548320948 JFHOLEIDKFJLSQkhfozeitzetr4ze5t7ez4rtz5R4ez5r4"(r4qs5trf7ze5tf7EZTRF4REYG5DS4QHGESZQTkrjfhdifrdjzqesr BOUBOBUBOBUBOBUBOBUBOBU ZOUYGLIGLIGLIGLGIGLGIGLGIl;   Voila, c'est terminé. 
 
 
 
