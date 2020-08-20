@@ -117,7 +117,7 @@ checker aussi : bibliothèque VOCA pour les chaines de caracètres et stringjs.c
 
 <? php if ( isset ($_Post['id] && ( $_Post['id]!=" )))
 {echo "bonjour".$_POST["id"];
-else{echo "nom"] ?>
+else{echo "nom"] ? >
 
 22) watch about DEVOPS : 
 
