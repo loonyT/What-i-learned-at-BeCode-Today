@@ -250,7 +250,33 @@ exemple : effet "lightbox", pour manipuler une image en js.
 
 76) L'API FILE READER propose plusieurs méthodes pour lire des fichiers de manières asynchrone. Grâce à cette API, on peut aussi afficher une barre de progression au cours de l'envoi, c'est à dire montrer à l'utilisateur où en est un téléchargement par exemple. 
 
-77) 
+77) Manipuler le CSS en javascript : puisque JS a full évènements et sélecteur, il joue un role de "chef d'orchestre" et associe, active et remplace tous les styles CSS lorsqu'une intéraction précise se déclenche. 
+
+78) Il est possible de prédéfinir des classes spécifiques dans une feuille de style avec de nombreuses régler CSS, pour les appliquer d'un seul coup avec la propriété className. Exemple concrets de className : tinyurl/ya4ryqbg. 
+
+79) Avec jQuery, il suffit d'appeler la méthode css() sur le sélecteur de son choix pour modifier ou relever la valeure des styles CSS de votre choi, tutoriel complet à l'adresse suivante : tinyurl/yaoh23k 
+
+80) Jquery dispose d'une méthode entièrement dédiée à la définition ou à la récupération de styles : il suffit d'appliquer css ( régles, valeur) au sélecteur de son choix. 
+
+81) Comment faire pour obtenir la valeur considéré pour réaliser des traitements et calculs spécifiques ? il faut utiliser la méthode getComputedStyle(), qui permet de récupérer des valeurs mais pas de les assigner. 
+
+82) combiner la méthode css() avec getComputedStyle, addClass() removeClass() et switchClass() pour échanger deux classes entre elles. Par exemple, le snippet suivant va échanger les deux classes lorsqu'on survolera l'élément '#blok' dans un effet de transition non linéaire qui s'étend sur 1000ms: $("#bloc").hover(function)() { $(this).switchClass("inactive", "active", 1000, "easeInOutQuad")}; function () {$(this).switchClass("active", "inactive", 1000, "easeInOutQuad"); }); 
+
+83) putain jcommence a en avoir plein lcul la 
+
+84) allez courage, bientôt terminé fou. 
+
+85) Formation complète sur l'usage de l'API FILE : tinyurl/y7el5pwn
+
+86) trois types d'objets doivent être maitrisé pour gérer efficacement les transferts de fichiers à travers le naviguateur : FILE (pour un fichier unique) FileList ( multiples instances d'objets Files séparée dans un tableau et enfin FileReader ( pour la lecture de fichier). Très pertinent pour la gestion des CMS (content management system) bibliothéques media. 
+
+87) API DRAGNDROP : l'objet DataTransfer va soutenir les données à transférer entre la zone de départ la zone d'arrivée, on retrouvera l'ensemble des propriétés comme la posibilité de transférer des fichiers ou de préparer divers effet de dépots. Adresse : tinyurl/nv6949z. Très intéressant comme API quand il s'agit de concevoir un panier d'achat par exemple. 
+
+88) méthode canvas présentées de manière intéractive : www.html5canvastutorials.com 
+
+89) série d'exemple de gestion d'animation, avec des effets avancés comme par exemple la gestion de la physique : http://tinyurl.com/y823etsb
+
+
 
 
 
