@@ -113,9 +113,7 @@ short word document recapitulating whats been worked and learned on a typical 9 
 20) Pour uniformiser les réponses à un formulaire, utilisez le snippet suivant : alerte (chaine.CharAtco).toUpperCase() + chaine.slice(1).toLowerCase() ); 
 checker aussi : bibliothèque VOCA pour les chaines de caracètres et stringjs.com
 
-21) Comment récupérer un paramètre et le renvoyer mis en forme dans une chaine de charactères ? utilisez le snippet suivant : 
-
-<? php if ( isset ($_Post['id] && ( $_Post['id]!=" )))
+21) Comment récupérer un paramètre et le renvoyer mis en forme dans une chaine de charactères ? utilisez le snippet suivant : <? php if ( isset ($_Post['id] && ( $_Post['id]!=" )))
 {echo "bonjour".$_POST["id"];
 else{echo "nom"] ? >
 
