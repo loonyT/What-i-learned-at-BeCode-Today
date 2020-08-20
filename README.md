@@ -126,6 +126,58 @@ PAr exemple, sur la plateforme ETSI, il y a dix déploiements par jours, ce qui 
 Après, le personnel devops c'est un peu comme du personnel de consultance en sécurité, qui est quelque chose de nécessaire mais non obligatoire. En général, la plupart des sociétés engage des "formateurs DEVOPS". 
 
 
+23) Déployer un système de recherche en AJAX : dynamiser un site en actualisant des blocs précis de contenu et non la page entière, c'est le principe de l'asyncronous javascript and XML. Cela peut se démontrer au travers du déploiement d'un champ "auto complèté" par exemple au fur et à mesure de la saisie de l'utilisateur, des suggestions piochées dans une base de donnée SQL lui sont proposée. 
+
+code snippet du système de suggestion avec CDN jquery : 
+
+<script src = "htttps//code.jquery.com/jquery_3.2.1min.js> </script> <style> .recherche_pays {border : ..... bg colour, margin, padding, border radius, #list pays float left, list style none, margin top, padding, width, position absolute #listePays li padding, background, li hover </style> 
+               <div class = "recherche_pays"> <input type ="text" id = "recherche" placeholder ="Nom Pays" /> <div id="suggestions"> </Div> 
+
+site très complet à propos de Ajax : http://tinyurl.com/y8pu2dhg 
+
+Widget jquery ui pour templates de système d'auto completion. 
+
+
+24) En fait Jquerry permet d'assigner dynamiquement des règles CSS 
+
+25) Comment fonctionne un code jquery initiant un appel AJAX ?  : $document.ready function $#recherche.keyup fn $ ajax type post url recherche pays.php data : nomPays + $this. ( attention, ce snippet est remplis de fautes de syntaxes ). En français, ça donne : A chaques fois que l'user saisit un caractère dans le champs "recherche" ( évènement keyUp) on lance un appel ajax vers un script externe recherchePays.php  avec le contenu actuel du champ. Celui ci va interroer la base de données MySQL et créer une liste  à puces en conséquence avec tous les résultats suscpetibles de correspondre, c'est la quinterviennent les styles CSS pour mettre en forme les résultats§. On leur associe une fonction choixPays qui se déclenche lorsqu'uon clique sur l'une de ces suggestions : masquer les résultats et afficher le nom complet du pays dans le champ prévu à cet effet. 
+
+Ensuite, quand un caractère dans le champs "recherch" est saisis, on déclenche l'évènement keyup et puis on appel la méthode ajax en conséquences, ceci en initiant une requète de type POST vers le script PHP. On affiche les résultats délivés dans la div suggestion et on modifie l'arrière plan du champs de recherche. 
+
+Après, on initialise la connexion à la base de données à l'aide de la fonction mysqli_connect,pour interroger la base de donnée, c'est plutpt mysqli_query(). Ensuite, il faut utiliser select avec le keyword like qui va chercher tous les termes approchant la recherche. Ensuite on fait une liste à puce avec les résultats trouvés et on leur met la fonction choixPays lorsqu'on clique dessus. /Le système est donc très simple et souple ainsi que facilement adaptable à tout type de projet. 
+=> page 63 du magazine hors série numéro 20 "web design".
+
+26) manipuler des images en javascript : on click et hover seront souvent utilisés pour associer des comportements dynamiques aux images. Cependant, les images en JS correspondent également à un type d'objet spécifique s'accompagnant de propriétés et d'évènements spécifiques :  new Image(largeur,hauteur).
+exemple : effet "lightbox", pour manipuler une image en js.  
+
+27) En fait, de nombreuses propriétés sont associées à l'objet image, celles ci vont ensuite participer à composer l'élément HTML correspondant avec tous les attributs classiques. 
+
+28) Erreurs récurrentes quand chargement dynamique d'une iamge : tinyurl/q94b5af
+
+29) Cela étant dit, le CSS 3 a apporté pas mal de propriétés modernes qui ont fait que le JS s'est plutot spécialisé dans la gestion d'évènements. 
+
+30) ajouter à une zone une balise construire à partir d'un objet : c'est ce que fait : appendChild() . 
+
+31) Les REGEX : il s'agit d'un aspect fondamentale du javascript : puisqu'elles permettent de définir des motifs à chercher dans des chars afin de procéder à des : VALIDATION DE FORMULAIRE, des CONVERSION de syntaxe, ou des EXCTRACTIONS de contenu par exemple. C'est en quelque sorte, presqu'un language à part, qu'il est cependant presque obligatoire de bien maitriser si on veut pouvoir soutenir les usages les plus ambitieux. 
+
+32) Les regex sont utilisés pour valider les champs  de formulaire par exemple. 
+
+33) mémo regex : tinyurl/y8cbrvu8.
+
+34) consolider l'apprentissage regex : tinyurl/zrsdr4q
+
+35) exemple de Regex : tinyurl/y79lx5z3
+
+36) Gagner du temps en testant ses regex face à des templates regex : RegExr.com, Regex101.com , RegexTester.com ce dernier site est rempli de REGEX préfabriquées :D 
+
+37) pour vérifier une REGEX : la définir à la manière d'une chaine de caractère puis appliquer la méthode test() sur l'élément à chercher. 
+
+38) ZOUGLOUGLOUGLOUG 
+
+39) méthodes liées à l'objet  String et utilisés pour les regex : match, search, split, replacE. 
+
+40) Gérer les dates et le temps en JS : 
+
 
 
 
