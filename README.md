@@ -304,7 +304,17 @@ exemple : effet "lightbox", pour manipuler une image en js.
 
 103) YIGUGUYAZ%4RzeoirhsfjzoejthfraozlKETHJEIZRHIAUZETHIPEUAOZA5IRU°238423548320948 JFHOLEIDKFJLSQkhfozeitzetr4ze5t7ez4rtz5R4ez5r4"(r4qs5trf7ze5tf7EZTRF4REYG5DS4QHGESZQTkrjfhdifrdjzqesr BOUBOBUBOBUBOBUBOBUBOBU ZOUYGLIGLIGLIGLGIGLGIGLGIl;   Voila, c'est terminé. 
 
+## BeCode distanciel du 21 aout 2020
 
+Objectives of the day : 
+
+1) réinstaller WAMP sur ma machine windows. 
+
+2) installer LAMP sur ma machine linux 
+
+3) revoir l'algorithmique par rapport aux tests techniques et situe où tu en es concrètement pour savoir sur quelles parties insister. 
+
+4) finir la partie de ton Document cybersécurité sur les différents types d'attaques et les remèdes y étant associés. 
 
 
 
