@@ -317,5 +317,16 @@ Objectives of the day :
 4) finir la partie de ton Document cybersécurité sur les différents types d'attaques et les remèdes y étant associés. 
 
 
+## BeCode Distanciel du 24 aout 
 
+1) Xamp installé sur autre machine windows. 
 
+2) Wamp réinstallé et fonctionel sur pc de travail classique 
+
+3) how to make login form in php and my sql 
+
+4) school management system in php 
+
+5) advance and secure user management system in php 
+
+6) lectures : php, my sql, algorithmique 
