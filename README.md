@@ -319,14 +319,14 @@ Objectives of the day :
 
 ## BeCode Distanciel du 24 aout 
 
-1) Xamp installé sur autre machine windows. 
+1) Xamp installé sur autre machine windows. DONE
 
-2) Wamp réinstallé et fonctionel sur pc de travail classique 
+2) Wamp réinstallé et fonctionel sur pc de travail classique DONE
 
-3) how to make login form in php and my sql 
+3) how to make login form in php and my sql DONE
 
-4) school management system in php 
+4) school management system in php NOT DONE
 
-5) advance and secure user management system in php 
+5) advance and secure user management system in php NOT DONE
 
-6) lectures : php, my sql, algorithmique 
+6) lectures : php, my sql, algorithmique IN PROGRESS ;-) 
